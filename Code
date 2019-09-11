@@ -9,9 +9,11 @@ $gender = "male";  // variable starts with $ sign
 $n = 10;
 $f = 4.5;
 $b = true;
-define("pi", 3.14159)  // assigns pi as a constant with the value 3.14159
-$oceans = array("Pacific", "Atlantic", "Indian", "Arctic");
 echo "I am $gender";  // outputs I am male
+define("pi", 3.14159)  // assigns pi as a constant with the value 3.14159
+$oceans = array("Pacific", "Atlantic", "Indian", "Arctic");  // creates an array with four terms
+sort($oceans);  // sorts alphabetically (i.e. "Arctic", "Atlantic", "Indian", "Pacific")
+rsort($oceans);  // sorts reverse alphabetically (i.e. "Pacific", "Indian", "Atlantic", "Arctic")
 
 if (condition) {
   // code
@@ -31,6 +33,22 @@ switch (n) {
     ...
     default:
         code to be executed if n is different from all labels;
+}
+
+while (condition is true) {
+    code to be executed;
+}
+
+for (init counter; test counter; increment counter) {
+    code to be executed;
+}
+foreach ($array as $value) {
+    code to be executed;
+}
+
+function functionName(<arguments>) {
+    code to be executed;
+    return <variable>;
 }
 
 ?>
