@@ -7,7 +7,32 @@
 # Also a comment
 $gender = "male";  // variable starts with $ sign
 $n = 10;
-echo "I am $gender";  // outputs I am Male to screen
+$f = 4.5;
+$b = true;
+define("pi", 3.14159)  // assigns pi as a constant with the value 3.14159
+$oceans = array("Pacific", "Atlantic", "Indian", "Arctic");
+echo "I am $gender";  // outputs I am male
+
+if (condition) {
+  // code
+} elseif (condition) {
+  // code
+} else {
+  // code
+}
+
+switch (n) {
+    case label1:
+        code to be executed if n=label1;
+        break;
+    case label2:
+        code to be executed if n=label2;
+        break;
+    ...
+    default:
+        code to be executed if n is different from all labels;
+}
+
 ?>
 
 </body>
