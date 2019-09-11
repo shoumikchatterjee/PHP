@@ -1,1 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
 
+<?php
+// PHP code (PHP statements end with a semicolon)
+# Also a comment
+$gender = "male";  // variable starts with $ sign
+$n = 10;
+echo "I am $gender";  // outputs I am Male to screen
+?>
+
+</body>
+</html>
