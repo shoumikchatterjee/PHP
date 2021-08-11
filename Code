@@ -32,7 +32,7 @@ switch (n) {
         break;
     ...
     default:
-        code to be executed if n is different from all labels;
+        code to be executed if n is different than all labels;
 }
 
 while (condition is true) {
